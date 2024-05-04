@@ -19,11 +19,7 @@ class _Add_ScreenState extends State<Add_Screen> {
   final TextEditingController amount_c = TextEditingController();
   FocusNode amount_ = FocusNode();
   final List<String> _item = [
-    'food',
-    "Transfer",
-    "Transportation",
-    "Education",
-    "Farmacia",
+    "farmacia",
     "agua",
     "energia",
     "Transferencia",
@@ -33,7 +29,18 @@ class _Add_ScreenState extends State<Add_Screen> {
     "Educacao",
     "Saude",
     "Shopping",
-    "Mercado"
+    "Mercado",
+    "telefone",
+    "Veterinario",
+    "jogos",
+    "Viagem",
+    "IPTU",
+    "Academia",
+    "Salao",
+    "Unha",
+    "barbeiro",
+    "Entretenimento",
+    "Roupas"
   ];
   final List<String> _itemei = [
     'Income',
