@@ -40,6 +40,7 @@ class _Add_ScreenState extends State<Add_Screen> {
     "Unha",
     "barbeiro",
     "Entretenimento",
+    "Crianças",
     "Roupas"
   ];
   final List<String> _itemei = [
