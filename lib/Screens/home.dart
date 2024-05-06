@@ -164,7 +164,7 @@ class _HomeState extends State<Home> {
                           ),
                         ),
                         Text(
-                          'Enjelin Morgeana',
+                          'Gian Moroni',
                           style: TextStyle(
                             fontWeight: FontWeight.w600,
                             fontSize: 20,

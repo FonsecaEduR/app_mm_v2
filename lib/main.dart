@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:app_mm_v2/Screens/home.dart';
-import 'package:app_mm_v2/Screens/statistics.dart';
+import 'package:app_mm_v2/Screens/statistics.dart'; 
 import 'package:app_mm_v2/widgets/bottomnavigationbar.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
