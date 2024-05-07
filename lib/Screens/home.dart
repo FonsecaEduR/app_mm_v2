@@ -16,13 +16,13 @@ class _HomeState extends State<Home> {
   var history;
   final box = Hive.box<Add_data>('data');
   final List<String> day = [
-    'Monday',
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    'friday',
-    'saturday',
-    'sunday'
+    'Segunda Feira',
+    "Terça Feira",
+    "Quarta Feira",
+    "Quinta Feira",
+    'Sexta Feira',
+    'Sabado',
+    'Domingo'
   ];
   @override
   Widget build(BuildContext context) {
@@ -43,7 +43,7 @@ class _HomeState extends State<Home> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              'Transactions History',
+                              'Histórico de Transações',
                               style: TextStyle(
                                 fontWeight: FontWeight.w600,
                                 fontSize: 19,
@@ -51,7 +51,7 @@ class _HomeState extends State<Home> {
                               ),
                             ),
                             Text(
-                              'See all',
+                              'Veja Mais',
                               style: TextStyle(
                                 fontWeight: FontWeight.w600,
                                 fontSize: 15,
@@ -110,7 +110,7 @@ class _HomeState extends State<Home> {
         style: TextStyle(
           fontWeight: FontWeight.w600,
           fontSize: 19,
-          color: history.IN == 'Income' ? Colors.green : Colors.red,
+          color: history.IN == 'Receita' ? Colors.green : Colors.red,
         ),
       ),
     );
@@ -156,7 +156,7 @@ class _HomeState extends State<Home> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Good afternoon',
+                          'Bom Dia',
                           style: TextStyle(
                             fontWeight: FontWeight.w500,
                             fontSize: 16,
@@ -206,7 +206,7 @@ class _HomeState extends State<Home> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        'Total Balance',
+                        'Balanço Total',
                         style: TextStyle(
                           fontWeight: FontWeight.w500,
                           fontSize: 16,
@@ -255,7 +255,7 @@ class _HomeState extends State<Home> {
                           ),
                           SizedBox(width: 7),
                           Text(
-                            'Income',
+                            'Renda',
                             style: TextStyle(
                               fontWeight: FontWeight.w500,
                               fontSize: 16,
@@ -277,7 +277,7 @@ class _HomeState extends State<Home> {
                           ),
                           SizedBox(width: 7),
                           Text(
-                            'Expenses',
+                            'Despesas',
                             style: TextStyle(
                               fontWeight: FontWeight.w500,
                               fontSize: 16,
@@ -296,7 +296,7 @@ class _HomeState extends State<Home> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        '\$ ${income()}',
+                        '\$ ${Receita()}',
                         style: TextStyle(
                           fontWeight: FontWeight.w600,
                           fontSize: 17,

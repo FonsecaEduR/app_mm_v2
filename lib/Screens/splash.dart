@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
               Column(
                 children: <Widget>[
                   Text(
-                    "Welcome",
+                    "Sejam Bem Vindos(a)",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 30,
@@ -91,7 +91,7 @@ class HomePage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(50)
                     ),
                     child: Text(
-                      "Sign up",
+                      "Inscrever-se",
                       style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.w600,

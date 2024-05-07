@@ -44,8 +44,8 @@ class _Add_ScreenState extends State<Add_Screen> {
     "Roupas"
   ];
   final List<String> _itemei = [
-    'Income',
-    "Expand",
+    'Receita',
+    "Despesa",
   ];
   @override
   void initState() {
@@ -122,7 +122,7 @@ class _Add_ScreenState extends State<Add_Screen> {
         width: 120,
         height: 50,
         child: Text(
-          'Save',
+          'Salvar',
           style: TextStyle(
             fontFamily: 'f',
             fontWeight: FontWeight.w600,
@@ -154,7 +154,7 @@ class _Add_ScreenState extends State<Add_Screen> {
           });
         },
         child: Text(
-          'Date : ${date.year} / ${date.day} / ${date.month}',
+          'Data : ${date.year} / ${date.day} / ${date.month}',
           style: TextStyle(
             fontSize: 15,
             color: Colors.black,
@@ -208,7 +208,7 @@ class _Add_ScreenState extends State<Add_Screen> {
           hint: Padding(
             padding: const EdgeInsets.only(top: 12),
             child: Text(
-              'How',
+              'Lançamento',
               style: TextStyle(color: Colors.grey),
             ),
           ),
@@ -229,7 +229,7 @@ class _Add_ScreenState extends State<Add_Screen> {
         controller: amount_c,
         decoration: InputDecoration(
           contentPadding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
-          labelText: 'amount',
+          labelText: 'Quantia',
           labelStyle: TextStyle(fontSize: 17, color: Colors.grey.shade500),
           enabledBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(10),
@@ -250,7 +250,7 @@ class _Add_ScreenState extends State<Add_Screen> {
         controller: expalin_C,
         decoration: InputDecoration(
           contentPadding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
-          labelText: 'explain',
+          labelText: 'Observação',
           labelStyle: TextStyle(fontSize: 17, color: Colors.grey.shade500),
           enabledBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(10),
@@ -291,7 +291,7 @@ class _Add_ScreenState extends State<Add_Screen> {
                         children: [
                           Container(
                             width: 40,
-                            child: Image.asset('images/${e}.png'),
+                            child: Image.asset('assets/images/${e}.png'),
                           ),
                           SizedBox(width: 10),
                           Text(
@@ -309,7 +309,7 @@ class _Add_ScreenState extends State<Add_Screen> {
                     children: [
                       Container(
                         width: 42,
-                        child: Image.asset('images/${e}.png'),
+                        child: Image.asset('assets/images/${e}.png'),
                       ),
                       SizedBox(width: 5),
                       Text(e)
@@ -319,7 +319,7 @@ class _Add_ScreenState extends State<Add_Screen> {
           hint: Padding(
             padding: const EdgeInsets.only(top: 12),
             child: Text(
-              'Name',
+              'Nome',
               style: TextStyle(color: Colors.grey),
             ),
           ),
@@ -360,7 +360,7 @@ class _Add_ScreenState extends State<Add_Screen> {
                       child: Icon(Icons.arrow_back, color: Colors.white),
                     ),
                     Text(
-                      'Adding',
+                      'Adicionar',
                       style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w600,
