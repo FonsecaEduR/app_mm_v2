@@ -38,7 +38,7 @@ class SignupPage extends StatelessWidget {
 
                   ),),
                   SizedBox(height: 20,),
-                  Text("Create an account, It's free ",
+                  Text("Crie uma conta, É gratis. ",
                     style: TextStyle(
                         fontSize: 15,
                         color:Colors.grey[700]),)
@@ -48,10 +48,10 @@ class SignupPage extends StatelessWidget {
               ),
               Column(
                 children: <Widget>[
-                  inputFile(label: "Username"),
+                  inputFile(label: "Nome do Usuário"),
                   inputFile(label: "Email"),
-                  inputFile(label: "Password", obscureText: true),
-                  inputFile(label: "Confirm Password ", obscureText: true),
+                  inputFile(label: "Senha", obscureText: true),
+                  inputFile(label: "Confirmar Senha ", obscureText: true),
                 ],
               ),
               Container(
@@ -81,7 +81,7 @@ class SignupPage extends StatelessWidget {
 
                   ),
                   child: Text(
-                    "Sign up", style: TextStyle(
+                    "Inscreva-se", style: TextStyle(
                     fontWeight: FontWeight.w600,
                     fontSize: 18,
                     color: Colors.white,
@@ -97,7 +97,7 @@ class SignupPage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Text("Already have an account?"),
+                  Text("Já tem uma conta?"),
                   Text(" Login", style:TextStyle(
                       fontWeight: FontWeight.w600,
                       fontSize: 18
