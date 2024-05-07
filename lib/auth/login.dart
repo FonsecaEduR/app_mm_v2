@@ -35,7 +35,7 @@ class LoginPage extends StatelessWidget {
                     Text("Login",
                     style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
                     SizedBox(height: 20,),
-                    Text("Login to your account",
+                    Text("Faça login na sua conta",
                     style: TextStyle(
                       fontSize: 15,
                     color:Colors.grey[700]),)
@@ -46,7 +46,7 @@ class LoginPage extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       inputFile(label: "Email"),
-                      inputFile(label: "Password", obscureText: true)
+                      inputFile(label: "Senha", obscureText: true)
                     ],
                   ),
                 ),
@@ -95,8 +95,8 @@ class LoginPage extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    Text("Don't have an account?"),
-                    Text(" Sign up", style: TextStyle(
+                    Text("Não tem uma conta?"),
+                    Text("Inscrever-se", style: TextStyle(
                       fontWeight: FontWeight.w600,
                       fontSize: 18,
 
